@@ -1,0 +1,77 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+.python-version
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+*.whl
+
+# ---- 测试与覆盖率 ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+# ---- 环境变量与密钥 ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+*.jks
+secrets*.yml
+secrets*.yaml
+
+# ---- 日志与运行时产物 ----
+*.log
+logs/
+*.pid
+*.pid.lock
+*.out
+data/
+tmp/
+
+# ---- 编辑器与系统 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+*~
+
+# ---- Node（MCP 客户端调试 / 前端工具） ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# ---- 二进制与大文件 ----
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.jar
+*.bin
